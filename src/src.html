@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Kaplama Gündemi</title>
+<meta name="description" content="Boya ve kaplama sektörünün günlük haber özeti">
+<meta name="theme-color" content="#f4f1ea" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#16150f" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Kaplama Gündemi">
+<style>
+/*FONTS*/
+/* Gazete düzeni: üstte künye, altında sekmeler; tek sütun okuma, geniş ekranda manşet + iki sütun */
+:root{
+ --paper:#f6f4ee; --ink:#1b1a17; --ink2:#4d4a43; --ink3:#7d786d; --rule:#d9d4c7; --rule2:#1b1a17;
+ --mark:#9b2c1f; --chip:#ebe7dc; --sel:#fff;
+ --serif:"Newsreader",Georgia,"Times New Roman",serif;
+ --sans:"Plex Cond","Arial Narrow",system-ui,sans-serif;
+ color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--paper:#161511;--ink:#ece8de;--ink2:#bdb8ab;--ink3:#8d887b;--rule:#34322b;--rule2:#ece8de;--mark:#e0745f;--chip:#24221c;--sel:#24221c;color-scheme:dark}}
+:root[data-theme="dark"]{--paper:#161511;--ink:#ece8de;--ink2:#bdb8ab;--ink3:#8d887b;--rule:#34322b;--rule2:#ece8de;--mark:#e0745f;--chip:#24221c;--sel:#24221c;color-scheme:dark}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 18px/1.55 var(--serif);
+ padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+.wrap{max-width:1080px;margin:0 auto;padding-left:max(18px,env(safe-area-inset-left,0px));padding-right:max(18px,env(safe-area-inset-right,0px))}
+a{color:inherit}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--mark);outline-offset:2px}
+
+/* künye */
+.mast{padding-block:18px 0;text-align:center}
+.mast-top{display:flex;justify-content:space-between;align-items:center;gap:12px;font:500 12.5px/1.2 var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--ink2);border-bottom:1px solid var(--rule);padding-bottom:8px}
+.mast-top .r{display:flex;gap:6px}
+.lang{background:none;border:1px solid var(--rule);border-radius:3px;padding:3px 7px;cursor:pointer;font:600 12px var(--sans);letter-spacing:.06em}
+.lang[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+h1.name{font:700 clamp(40px,9vw,76px)/1 var(--serif);letter-spacing:-.02em;margin:14px 0 6px}
+.tag{font:italic 400 16px/1.3 var(--serif);color:var(--ink2);margin:0 0 12px}
+.dbl{border-top:3px solid var(--rule2);border-bottom:1px solid var(--rule2);height:6px}
+
+/* sekmeler */
+nav.tabs{position:sticky;top:0;z-index:5;background:var(--paper);border-bottom:1px solid var(--rule)}
+nav.tabs .wrap{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none}
+nav.tabs .wrap::-webkit-scrollbar{display:none}
+.tab{background:none;border:0;border-bottom:3px solid transparent;padding:12px 10px 9px;font:600 14px/1 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--ink2);cursor:pointer;white-space:nowrap}
+.tab[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--mark)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--paper);z-index:10}
+nav.tabs{top:env(safe-area-inset-top,0px)}
+
+main{padding-block:22px 40px}
+.kicker{font:600 12.5px/1.2 var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--mark)}
+.meta{font:500 13px/1.3 var(--sans);letter-spacing:.03em;color:var(--ink3)}
+.sec-h{display:flex;align-items:baseline;justify-content:space-between;gap:10px;border-bottom:1px solid var(--rule2);padding-bottom:6px;margin:30px 0 4px}
+.sec-h h2{font:600 14px/1.2 var(--sans);letter-spacing:.12em;text-transform:uppercase;margin:0}
+
+/* günün özeti */
+.brief{border-bottom:1px solid var(--rule);padding-bottom:18px}
+.brief p{font:400 22px/1.45 var(--serif);margin:8px 0 0;max-width:62ch;text-wrap:pretty}
+.brief p::first-letter{font-weight:700}
+
+/* haber */
+.story{padding:18px 0;border-bottom:1px solid var(--rule);display:flex;flex-direction:column;gap:7px}
+.story h3{font:600 23px/1.22 var(--serif);margin:0;letter-spacing:-.005em;text-wrap:balance}
+.story .sum{margin:0;font-size:17.5px;line-height:1.5;max-width:66ch;text-wrap:pretty}
+.lead .story .sum{font-size:19px}
+.story .imp{font:italic 400 17px/1.45 var(--serif);color:var(--ink2);margin:0;max-width:66ch}
+.story .imp b{font-style:normal;font:600 12px var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--ink3);margin-right:6px}
+.acts{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center;margin-top:2px}
+.act{background:none;border:0;padding:4px 0;cursor:pointer;font:600 13px var(--sans);letter-spacing:.05em;text-transform:uppercase;color:var(--ink2);text-decoration:none;display:inline-flex;gap:5px;align-items:center}
+.act:hover{color:var(--mark)}
+.act svg{width:15px;height:15px}
+.act[aria-pressed="true"]{color:var(--mark)}
+
+.lead .story{padding-top:4px}
+.lead .story h3{font:700 clamp(30px,5vw,42px)/1.1 var(--serif);letter-spacing:-.015em}
+.lead .story .sum{margin:0;font-size:17.5px;line-height:1.5;max-width:66ch;text-wrap:pretty}
+.lead .story .sum{font-size:19px}
+.story .imp{font-size:19px}
+.cols{display:grid;grid-template-columns:1fr;column-gap:32px}
+@media (min-width:820px){
+ .front{display:grid;grid-template-columns:1.55fr 1fr;column-gap:36px}
+ .front .side{border-left:1px solid var(--rule);padding-left:28px}
+ .front .side .story:first-child{padding-top:4px}
+ .cols{grid-template-columns:1fr 1fr}
+ .cols .story:nth-child(odd){padding-right:4px}
+}
+.front .side .story h3{font-size:20px}
+
+/* akış filtreleri */
+.filters{display:flex;flex-direction:column;gap:10px;margin-bottom:6px}
+.chips{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
+.chips::-webkit-scrollbar{display:none}
+.chip{border:1px solid var(--rule);background:transparent;border-radius:999px;padding:6px 12px;font:500 13.5px/1 var(--sans);letter-spacing:.03em;cursor:pointer;white-space:nowrap;color:var(--ink2)}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.search{display:flex;align-items:center;gap:8px;border-bottom:1px solid var(--rule2);padding:4px 0}
+.search input{flex:1;min-width:0;border:0;background:transparent;font:400 18px var(--serif);color:var(--ink);padding:6px 0;outline:none}
+.search input::placeholder{color:var(--ink3);font-style:italic}
+.search svg{width:18px;height:18px;color:var(--ink3);flex:none}
+.day{font:600 13px var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--ink);margin:26px 0 0;padding-bottom:6px;border-bottom:1px solid var(--rule2)}
+
+/* haftalık */
+.weekly{max-width:680px}
+.weekly h2{font:700 clamp(32px,6vw,46px)/1.08 var(--serif);margin:8px 0 6px;letter-spacing:-.015em;text-wrap:balance}
+.weekly p{margin:0 0 16px;font-size:19px;line-height:1.6;text-wrap:pretty}
+.weekly p:first-of-type::first-letter{float:left;font:700 64px/.82 var(--serif);margin:6px 8px 0 0;color:var(--mark)}
+.weekly .src-note{font:italic 15px/1.5 var(--serif);color:var(--ink3);border-top:1px solid var(--rule);padding-top:12px}
+
+.empty{padding:40px 0;color:var(--ink2);font-style:italic;max-width:46ch}
+footer{border-top:3px double var(--rule2);padding-block:16px 30px;font:500 13px/1.5 var(--sans);color:var(--ink3);letter-spacing:.02em}
+footer .wrap{display:flex;flex-wrap:wrap;gap:6px 18px;justify-content:space-between}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--paper);font:500 14px var(--sans);padding:10px 16px;border-radius:4px;opacity:0;transition:opacity .2s;pointer-events:none;z-index:20}
+.toast.on{opacity:1}
+[hidden]{display:none!important}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<header class="mast"><div class="wrap">
+ <div class="mast-top"><span id="dateline"></span><span class="r"><button class="lang" data-l="tr" type="button">TR</button><button class="lang" data-l="en" type="button">EN</button></span></div>
+ <h1 class="name">Kaplama Gündemi</h1>
+ <p class="tag" id="tag"></p>
+ <div class="dbl"></div>
+</div></header>
+<nav class="tabs" aria-label="Bölümler"><div class="wrap" role="tablist">
+ <button class="tab" role="tab" data-v="bugun" id="t-bugun"></button>
+ <button class="tab" role="tab" data-v="akis" id="t-akis"></button>
+ <button class="tab" role="tab" data-v="haftalik" id="t-haftalik"></button>
+ <button class="tab" role="tab" data-v="kayit" id="t-kayit"></button>
+</div></nav>
+<main class="wrap" id="main"></main>
+<footer><div class="wrap"><span id="foot1"></span><span><span id="upd"></span> · <a href="privacy.html" id="priv"></a></span></div></footer>
+<div class="toast" id="toast" role="status"></div>
+<script>
+(()=>{
+const LS={get(k,d){try{const v=localStorage.getItem("kg-"+k);return v==null?d:JSON.parse(v)}catch(e){return d}},set(k,v){try{localStorage.setItem("kg-"+k,JSON.stringify(v))}catch(e){}}};
+const UI={
+tr:{tag:"Boya ve kaplama sektörünün günlük özeti",bugun:"Bugün",akis:"Akış",haftalik:"Haftalık",kayit:"Kaydedilenler",brief:"Günün özeti",top:"Öne çıkanlar",more:"Diğer haberler",imp:"Ne anlama geliyor",read:"Habere git",save:"Kaydet",saved:"Kaydedildi",share:"Paylaş",all:"Tümü",tr:"Türkiye",dunya:"Dünya",search:"Haberlerde ara",none:"Bu filtreyle haber yok.",nosaved:"Henüz kaydettiğin haber yok. Bir haberin altındaki “Kaydet”e dokunduğunda burada görünür; kayıtlar yalnızca bu cihazda tutulur.",week:"Haftanın analizi",weekof:"Hafta",wnote:"Bu analiz, uygulamadaki haberlerden derlenmiştir; her bilginin kaynağı ilgili haberde.",foot:"Haberler kaynaklarından özetlenir; tam metin için “Habere git”.",upd:"Güncelleme",priv:"Gizlilik",copied:"Bağlantı kopyalandı",offline:"Çevrimdışısın; son kayıtlı sayı gösteriliyor.",err:"Haberler yüklenemedi. İnternet bağlantını kontrol edip sayfayı yenile.",
+ cats:{ure:"Üreticiler",ham:"Hammadde ve Fiyat",pzr:"Pazar ve Ekonomi",std:"Standart ve Regülasyon",tek:"Ürün ve Teknoloji",uyg:"Deniz, Yangın, Zemin"}},
+en:{tag:"The daily brief of the paint and coatings industry",bugun:"Today",akis:"Feed",haftalik:"Weekly",kayit:"Saved",brief:"Today's brief",top:"Top stories",more:"More news",imp:"What it means",read:"Read story",save:"Save",saved:"Saved",share:"Share",all:"All",tr:"Türkiye",dunya:"World",search:"Search the news",none:"No news for this filter.",nosaved:"You have not saved any stories yet. Tap “Save” under a story to keep it here; saved stories stay on this device only.",week:"Analysis of the week",weekof:"Week of",wnote:"This analysis is compiled from the stories in the app; the source of each point is in the related story.",foot:"Stories are summarised from their sources; tap “Read story” for the full text.",upd:"Updated",priv:"Privacy",copied:"Link copied",offline:"You are offline; showing the last saved edition.",err:"News could not be loaded. Check your connection and refresh.",
+ cats:{ure:"Manufacturers",ham:"Raw Materials & Prices",pzr:"Markets & Economy",std:"Standards & Regulation",tek:"Products & Technology",uyg:"Marine, Fire, Flooring"}}};
+let L=LS.get("lang",(navigator.language||"tr").toLowerCase().startsWith("tr")?"tr":"en");
+let V=LS.get("view","bugun"), CAT="all", GEO="all", Q="", D=null, SAVED=LS.get("saved",[]);
+const $=s=>document.querySelector(s), esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const u=k=>UI[L][k];
+const loc=()=>L==="tr"?"tr-TR":"en-GB";
+const fd=(s,o)=>{try{return new Date(s+"T12:00:00").toLocaleDateString(loc(),o)}catch(e){return s}};
+const cap=s=>s?s.charAt(0).toLocaleUpperCase(loc())+s.slice(1):s;
+const tx=(n,k)=>(L==="en"&&n[k+"_en"])?n[k+"_en"]:n[k];
+const I={ext:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>',
+ bm:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3h12v18l-6-4-6 4z"/></svg>',
+ bmf:'<svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2"><path d="M6 3h12v18l-6-4-6 4z"/></svg>',
+ sh:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12M7 8l5-5 5 5M5 13v6a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-6"/></svg>',
+ se:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>'};
+
+function story(n){
+ const sv=SAVED.includes(n.id), imp=tx(n,"imp");
+ return `<article class="story" data-id="${esc(n.id)}">
+ <span class="kicker">${esc(u("cats")[n.cat]||"")} · ${esc(u(n.geo)||"")}</span>
+ <h3>${esc(tx(n,"h")||tx(n,"t"))}</h3>
+ ${tx(n,"h")?`<p class="sum">${esc(tx(n,"t"))}</p>`:""}
+ ${imp?`<p class="imp"><b>${u("imp")}</b>${esc(cap(imp))}</p>`:""}
+ <span class="meta">${esc(n.src)} · ${fd(n.date,{day:"numeric",month:"long"})}</span>
+ <div class="acts"><a class="act" href="${esc(n.url)}" target="_blank" rel="noopener">${I.ext}${u("read")}</a>
+ <button class="act" type="button" data-save="${esc(n.id)}" aria-pressed="${sv}">${sv?I.bmf:I.bm}${sv?u("saved"):u("save")}</button>
+ <button class="act" type="button" data-share="${esc(n.id)}">${I.sh}${u("share")}</button></div></article>`;
+}
+function vBugun(){
+ const N=D.news, tops=N.filter(n=>n.top), rest=N.filter(n=>!n.top);
+ const lead=tops[0], side=tops.slice(1);
+ return `<section class="brief"><span class="kicker">${u("brief")}</span><p>${esc(tx(D,"brief"))}</p></section>
+ <div class="sec-h"><h2>${u("top")}</h2></div>
+ <div class="front"><div class="lead">${lead?story(lead):""}</div><div class="side">${side.map(story).join("")}</div></div>
+ ${rest.length?`<div class="sec-h"><h2>${u("more")}</h2></div><div class="cols">${rest.map(story).join("")}</div>`:""}`;
+}
+function vAkis(){
+ const cats=Object.keys(u("cats")).filter(c=>D.news.some(n=>n.cat===c));
+ const q=Q.toLocaleLowerCase(loc());
+ const N=D.news.filter(n=>(CAT==="all"||n.cat===CAT)&&(GEO==="all"||n.geo===GEO)&&(!q||[tx(n,"h"),tx(n,"t"),tx(n,"imp"),n.src].join(" ").toLocaleLowerCase(loc()).includes(q)));
+ let html=`<div class="filters"><label class="search">${I.se}<input id="q" type="search" placeholder="${u("search")}" value="${esc(Q)}" aria-label="${u("search")}"></label>
+ <div class="chips">${["all",...cats].map(c=>`<button class="chip" type="button" data-cat="${c}" aria-pressed="${CAT===c}">${c==="all"?u("all"):u("cats")[c]}</button>`).join("")}</div>
+ <div class="chips">${["all","tr","dunya"].map(g=>`<button class="chip" type="button" data-geo="${g}" aria-pressed="${GEO===g}">${u(g==="all"?"all":g)}</button>`).join("")}</div></div><div id="list">`;
+ if(!N.length) html+=`<p class="empty">${u("none")}</p>`;
+ let last="";
+ for(const n of N){ if(n.date!==last){html+=`<h3 class="day">${fd(n.date,{weekday:"long",day:"numeric",month:"long"})}</h3>`;last=n.date;} html+=story(n);}
+ return html+"</div>";
+}
+function vHaftalik(){
+ const w=D.weekly; if(!w) return `<p class="empty">${u("none")}</p>`;
+ const body=(L==="en"&&w.body_en)?w.body_en:w.body;
+ return `<article class="weekly"><span class="kicker">${u("week")} · ${u("weekof")} ${fd(w.week,{day:"numeric",month:"long"})}</span>
+ <h2>${esc(tx(w,"title"))}</h2>${body.map(p=>`<p>${esc(p)}</p>`).join("")}<p class="src-note">${u("wnote")}</p></article>`;
+}
+function vKayit(){
+ const N=D.news.filter(n=>SAVED.includes(n.id));
+ return N.length?N.map(story).join(""):`<p class="empty">${u("nosaved")}</p>`;
+}
+function render(keepFocus){
+ document.documentElement.lang=L;
+ $("#tag").textContent=u("tag");
+ $("#dateline").textContent=new Date().toLocaleDateString(loc(),{weekday:"long",day:"numeric",month:"long",year:"numeric"});
+ ["bugun","akis","haftalik","kayit"].forEach(k=>{const t=$("#t-"+k);t.textContent=u(k);t.setAttribute("aria-selected",String(V===k))});
+ document.querySelectorAll(".lang").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.l===L)));
+ $("#foot1").textContent=u("foot"); $("#priv").textContent=u("priv");
+ $("#upd").textContent=D?u("upd")+": "+fd(D.updated,{day:"numeric",month:"long",year:"numeric"}):"";
+ if(!D) return;
+ const m=$("#main");
+ if(V==="akis"&&keepFocus){ const cur=$("#q"); const pos=cur?cur.selectionStart:0; m.innerHTML=vAkis(); const n=$("#q"); n.focus(); try{n.setSelectionRange(pos,pos)}catch(e){} return;}
+ m.innerHTML=V==="bugun"?vBugun():V==="akis"?vAkis():V==="haftalik"?vHaftalik():vKayit();
+}
+function toast(t){const e=$("#toast");e.textContent=t;e.classList.add("on");clearTimeout(e._t);e._t=setTimeout(()=>e.classList.remove("on"),2200)}
+document.addEventListener("click",async e=>{
+ const t=e.target.closest("button"); if(!t) return;
+ if(t.dataset.v){V=t.dataset.v;LS.set("view",V);render();window.scrollTo({top:0});return;}
+ if(t.dataset.l){L=t.dataset.l;LS.set("lang",L);render();return;}
+ if(t.dataset.cat){CAT=t.dataset.cat;render();return;}
+ if(t.dataset.geo){GEO=t.dataset.geo;render();return;}
+ if(t.dataset.save){const id=t.dataset.save;SAVED=SAVED.includes(id)?SAVED.filter(x=>x!==id):[id,...SAVED];LS.set("saved",SAVED);const y=window.scrollY;render();window.scrollTo(0,y);return;}
+ if(t.dataset.share){const n=D.news.find(x=>x.id===t.dataset.share);if(!n)return;
+  const text=(tx(n,"h")||tx(n,"t"))+"\n"+tx(n,"t")+"\n"+n.src+"\n"+n.url;
+  if(navigator.share){try{await navigator.share({title:tx(n,"h")||tx(n,"t"),text:tx(n,"h")||tx(n,"t"),url:n.url});return}catch(err){if(err&&err.name==="AbortError")return}}
+  const wa="https://wa.me/?text="+encodeURIComponent(text+"\n\nKaplama Gündemi");
+  const w=window.open(wa,"_blank"); if(!w){try{await navigator.clipboard.writeText(text);toast(u("copied"))}catch(_){}}
+ }
+});
+let qt;document.addEventListener("input",e=>{if(e.target.id==="q"){Q=e.target.value;clearTimeout(qt);qt=setTimeout(()=>render(true),180)}});
+async function load(){
+ try{const r=await fetch("news.json?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw 0;D=await r.json();LS.set("cache",D)}
+ catch(e){D=LS.get("cache",null); if(D) setTimeout(()=>toast(u("offline")),300);}
+ if(!D){render();$("#main").innerHTML=`<p class="empty">${u("err")}</p>`;return}
+ D.news.sort((a,b)=>b.date.localeCompare(a.date));
+ render();
+}
+render(); load();
+document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="visible")load()});
+if("serviceWorker" in navigator) addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));
+})();
+</script>
+</body>
+</html>
