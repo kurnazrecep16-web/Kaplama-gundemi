@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-06",
- "brief": "Hammadde tarafında fiyatlar yukarı yönlü: TiO2, epoksi ve çözücü üreticileri zamlarını koruyor ya da yeniden zam yapıyor. Türkiye'de imalat zayıf seyrederken sektörde birleşme ve kapasite yatırımları sürüyor.",
- "brief_en": "Raw material prices are moving up: TiO2, epoxy and solvent producers are holding or raising prices. While manufacturing in Türkiye stays weak, mergers and capacity investments continue across the industry.",
+ "updated": "2026-11-08",
+ "brief": "TiO2 üreticileri 3. çeyrekte yüksek fiyatlarla güçlü sonuç açıklarken 4. çeyrekte mevsimsel talep yavaşlaması bekliyor. Türkiye'de ekim ayında Yİ-ÜFE yıllık %27,41'e ulaşırken sektörde AkzoNobel–Axalta ve RPM–Volteco gibi birleşme ve satın almalar sürüyor.",
+ "brief_en": "TiO2 producers reported strong Q3 results on higher prices while expecting a seasonal slowdown in demand in Q4. In Türkiye, domestic PPI reached 27.41% annually in October, while mergers and acquisitions such as AkzoNobel–Axalta and RPM–Volteco continue in the sector.",
  "weekly": {
   "week": "2026-11-02",
   "title": "Maliyet yukarı, hacim aşağı",
@@ -49,6 +49,21 @@
    "h_en": "Tronox: TiO2 price increases to hold in Q4"
   },
   {
+   "id": "2026-11-06-rpm-volteco",
+   "date": "2026-11-06",
+   "cat": "ure",
+   "geo": "dunya",
+   "h": "RPM, İtalyan su yalıtım üreticisi Volteco'yu alıyor",
+   "h_en": "RPM to acquire Italian waterproofing maker Volteco",
+   "t": "RPM International, İtalya merkezli su yalıtım çözümleri tedarikçisi Volteco S.p.A.'yı Tremco Construction Products Group bünyesine katmak üzere satın alıyor; işlemin RPM'in 2027 mali yılının 2. çeyreğinde tamamlanması bekleniyor",
+   "t_en": "RPM International is acquiring Volteco S.p.A., an Italy-based supplier of waterproofing solutions, to add it to its Tremco Construction Products Group; the transaction is expected to close in the second quarter of RPM's fiscal 2027",
+   "imp": "yapı kimyasalları ve su yalıtımında büyük grupların Avrupa'daki konsolidasyonu sürüyor",
+   "imp_en": "consolidation by large groups in construction chemicals and waterproofing in Europe continues",
+   "src": "American Coatings Association",
+   "url": "https://www.paint.org/rpm-acquires-volteco/",
+   "top": true
+  },
+  {
    "id": "2026-11-05-2",
    "date": "2026-11-05",
    "cat": "ure",
@@ -62,6 +77,21 @@
    "top": false,
    "h": "Betek su bazlı kapasitesini 345 bin tona çıkarıyor",
    "h_en": "Betek lifts waterborne capacity to 345,000 tonnes"
+  },
+  {
+   "id": "2026-11-05-kronos-q3",
+   "date": "2026-11-05",
+   "cat": "ham",
+   "geo": "dunya",
+   "h": "Kronos'ta TiO2 satış hacmi %14 arttı",
+   "h_en": "Kronos TiO2 sales volume up 14%",
+   "t": "Kronos Worldwide 3. çeyrekte net satışlarını %18 artırarak 541,1 milyon $'a çıkardı ve 34,8 milyon $ net kâr açıkladı; TiO2 ortalama satış fiyatı %5, satış hacmi %14 artışla 144 bin ton oldu. Şirket 4. çeyrekte mevsimsel olarak daha zayıf talep bekliyor",
+   "t_en": "Kronos Worldwide raised Q3 net sales by 18% to USD 541.1 million and reported net income of USD 34.8 million; the average TiO2 selling price rose 5% and sales volume rose 14% to 144 thousand tonnes. The company expects seasonally softer demand in Q4",
+   "imp": "TiO2 fiyatlarındaki artış son kat maliyetlerinde baskıyı koruyor, 4. çeyrekte talep yavaşlaması bekleniyor",
+   "imp_en": "higher TiO2 prices keep pressure on topcoat costs, while demand is expected to slow in Q4",
+   "src": "Kronos Worldwide (SEC)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001257640/000125764026000035/kro-ex99d1.htm",
+   "top": true
   },
   {
    "id": "2026-11-03-3",
@@ -94,6 +124,51 @@
    "h_en": "Oxea raises solvent prices by €80–100 per tonne"
   },
   {
+   "id": "2026-11-03-tr-ufe-ekim",
+   "date": "2026-11-03",
+   "cat": "pzr",
+   "geo": "tr",
+   "h": "Ekimde Yİ-ÜFE yıllık %27,41 oldu",
+   "h_en": "Domestic PPI at 27.41% annually in October",
+   "t": "TÜİK verilerine göre ekim ayında yurt içi üretici fiyatları aylık %1,65, yıllık %27,41 arttı; tüketici fiyatları aylık %2,58, yıllık %29,77 yükseldi",
+   "t_en": "According to TÜİK data, domestic producer prices rose 1.65% month on month and 27.41% year on year in October; consumer prices rose 2.58% month on month and 29.77% year on year",
+   "imp": "üretici fiyatlarındaki artış Türkiye'de boya üreticilerinin girdi maliyetlerinde ve fiyatlamasında belirleyici olmaya devam ediyor",
+   "imp_en": "rising producer prices continue to shape input costs and pricing for paint manufacturers in Türkiye",
+   "src": "CNBC-e",
+   "url": "https://www.cnbce.com/veriler/tuik-duyurdu-ekim-ayi-enflasyon-verisi-belli-oldu-h40884",
+   "top": true
+  },
+  {
+   "id": "2026-11-03-3m-pfas",
+   "date": "2026-11-03",
+   "cat": "std",
+   "geo": "dunya",
+   "h": "3M'den 7,35 milyar $'lık PFAS uzlaşması",
+   "h_en": "3M agrees USD 7.35 billion PFAS settlement",
+   "t": "3M, PFAS kaynaklı kişisel yaralanma davalarının yaklaşık %99'unu kapsayan ve 2026–2034 arasında nominal 7,35 milyar $ ödemeyi öngören bir uzlaşmaya vardı; şirket PFAS üretiminden 2025 sonunda tamamen çıktığını belirtiyor",
+   "t_en": "3M reached a settlement covering about 99% of PFAS-related personal-injury claims, providing for nominal payments of USD 7.35 billion between 2026 and 2034; the company says it completed its exit from PFAS manufacturing at the end of 2025",
+   "imp": "PFAS'a yönelik hukuki ve düzenleyici baskı, florlu katkı ve kaplama hammaddelerinde ikame arayışını destekliyor",
+   "imp_en": "legal and regulatory pressure on PFAS supports the search for substitutes for fluorinated additives and coating raw materials",
+   "src": "PCI Magazine",
+   "url": "https://www.pcimag.com/articles/115509-3m-enters-735-billion-pfas-personal-injury-settlement",
+   "top": false
+  },
+  {
+   "id": "2026-11-03-durr-20000-robot",
+   "date": "2026-11-03",
+   "cat": "tek",
+   "geo": "dunya",
+   "h": "Dürr 20.000'inci boya robotunu teslim etti",
+   "h_en": "Dürr delivers its 20,000th painting robot",
+   "t": "Dürr, EcoRP4 serisinden 20.000'inci boya robotunu Ford'un İspanya Valencia fabrikasında Kuga dış yüzey hattındaki yeni astar istasyonu için teslim etti",
+   "t_en": "Dürr delivered its 20,000th painting robot, from the EcoRP4 generation, for a new primer station on the Kuga exterior application line at Ford's plant in Valencia, Spain",
+   "imp": "otomotiv boyahanelerinde otomasyon yaygınlaşmaya devam ediyor",
+   "imp_en": "automation in automotive paint shops continues to spread",
+   "src": "American Coatings Association",
+   "url": "https://www.paint.org/durr-delivers-20000th-painting-robot/",
+   "top": false
+  },
+  {
    "id": "2026-11-02-5",
    "date": "2026-11-02",
    "cat": "ham",
@@ -119,9 +194,24 @@
    "imp_en": "pointing to pressure on manufacturing-driven demand for industrial coatings",
    "src": "Forbes Türkiye",
    "url": "https://www.forbes.com.tr/ekonomi/turkiye-imalat-sektorundeki-daralma-ekim-ayinda-derinlesti",
-   "top": true,
+   "top": false,
    "h": "İmalat PMI 31. aydır 50'nin altında",
    "h_en": "Manufacturing PMI below 50 for the 31st month"
+  },
+  {
+   "id": "2026-11-02-chemours-q3",
+   "date": "2026-11-02",
+   "cat": "ham",
+   "geo": "dunya",
+   "h": "Chemours'ta TiO2 fiyatları yıllık %10 yükseldi",
+   "h_en": "Chemours TiO2 prices up 10% year on year",
+   "t": "Chemours'un Titanium Technologies segmenti 3. çeyrekte %10 fiyat ve %1 hacim artışıyla satışlarını %11 artırarak 680 milyon $'a çıkardı; şirket segment satışlarının 4. çeyrekte mevsimsellik nedeniyle çeyreklik bazda yüksek tek haneden düşük çift haneye kadar gerilemesini bekliyor",
+   "t_en": "Chemours' Titanium Technologies segment raised Q3 sales by 11% to USD 680 million on a 10% price increase and 1% volume growth; the company expects segment sales to decline sequentially in Q4 by a high-single-digit to low-teens percentage due to seasonality",
+   "imp": "TiO2 fiyatlarının yüksek seyri pigment maliyetlerinde kısa vadede gevşeme beklentisini sınırlıyor",
+   "imp_en": "elevated TiO2 prices limit expectations of near-term easing in pigment costs",
+   "src": "Chemours (SEC)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001627223/000162722326000032/cc-ex99_1.htm",
+   "top": false
   },
   {
    "id": "2026-10-30-7",
@@ -149,7 +239,7 @@
    "imp_en": "cost pressure may rise for epoxy-based primers and floor systems",
    "src": "The Motley Fool",
    "url": "https://fool.com/earnings/call-transcripts/2026/10/30/olin-oln-q3-2026-earnings-call-transcript",
-   "top": true,
+   "top": false,
    "h": "Olin epoksiye zam ve yakıt ek ücreti getirdi",
    "h_en": "Olin adds epoxy price increase and fuel surcharge"
   },
@@ -164,7 +254,7 @@
    "imp_en": "the weight of foreign capital in the Turkish paint market is increasing",
    "src": "European Coatings",
    "url": "https://www.european-coatings.com/news/markets-companies/kansai-paint-completes-acquisition-of-polisan-kansai-boya/",
-   "top": true,
+   "top": false,
    "h": "Kansai Paint, Polisan Kansai'nin tamamını aldı",
    "h_en": "Kansai Paint takes full ownership of Polisan Kansai"
   },
