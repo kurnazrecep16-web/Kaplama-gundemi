@@ -1,23 +1,38 @@
 {
- "updated": "2026-11-08",
- "brief": "TiO2 üreticileri 3. çeyrekte yüksek fiyatlarla güçlü sonuç açıklarken 4. çeyrekte mevsimsel talep yavaşlaması bekliyor. Türkiye'de ekim ayında Yİ-ÜFE yıllık %27,41'e ulaşırken sektörde AkzoNobel–Axalta ve RPM–Volteco gibi birleşme ve satın almalar sürüyor.",
- "brief_en": "TiO2 producers reported strong Q3 results on higher prices while expecting a seasonal slowdown in demand in Q4. In Türkiye, domestic PPI reached 27.41% annually in October, while mergers and acquisitions such as AkzoNobel–Axalta and RPM–Volteco continue in the sector.",
+ "updated": "2026-11-09",
+ "brief": "Alman üretici Mipa İzmir'de Türkiye şirketini kurarken kimya sektörünün ihracatı 10 ayda %7 artışla 28,8 milyar $ ile rekor kırdı. Dünyada AkzoNobel–Axalta birleşmesi AB'den şartlı onay aldı, Kansai Paint'in yarıyıl kârı ise %49 geriledi.",
+ "brief_en": "German manufacturer Mipa established its Türkiye subsidiary in İzmir, while chemical sector exports rose 7% to a record USD 28.8 billion in 10 months. Globally, the AkzoNobel–Axalta merger received conditional EU approval, while Kansai Paint's half-year profit fell 49%.",
  "weekly": {
-  "week": "2026-11-02",
-  "title": "Maliyet yukarı, hacim aşağı",
-  "title_en": "Costs up, volumes down",
+  "week": "2026-11-09",
+  "title": "Maliyet baskısı sürüyor, yapı değişiyor",
+  "title_en": "Cost pressure persists, structure shifts",
   "body": [
-   "Bu haftanın ana teması hammadde maliyetleri. Tronox TiO2'de 2. çeyrekte yaptığı zamları 4. çeyrekte de koruyacağını açıkladı. Olin epoksiye zam ve yakıt ek ücreti getirdi; AB'de epoksi için koruma önlemi gündemde. Oxea da 1 Kasım'dan itibaren çözücü ve ara ürünlerde ton başına 80–100 € artışa gitti.",
-   "Türkiye'de talep tarafı zayıf. İSO İmalat PMI 47,3 ile 31. aydır 50'nin altında; DYO'nun 9 aylık sonuçlarında üretim %24, satış tonajı %22 geriledi. Ham çelik üretimi 9 ayda %6,1 artsa da Eylül'de nihai tüketim %6,9 düştü.",
-   "Sektörde yapı değişiyor: AkzoNobel–Axalta birleşmesi Avrupa Komisyonu'ndan şartlı onay aldı, Kansai Paint Polisan Kansai Boya'nın tamamına sahip oldu, Betek su bazlı kapasitesini 345 bin tona çıkarıyor. Koruyucu ve deniz kaplamaları ise büyüyen segment olmaya devam ediyor (PPG'de organik satışlar yüksek tek hanede arttı)."
+   "Geçen haftanın ana teması hammadde maliyetleri oldu. Tronox TiO2 zamlarını 4. çeyrekte de koruyacağını açıklarken Chemours'ta TiO2 fiyatları yıllık %10, Kronos'ta ortalama satış fiyatı %5 arttı. Oxea çözücülerde ton başına 80–100 € zam yaptı; Flint Group da enerji, navlun, pigment ve petrokimya girdilerini gerekçe göstererek 14 Aralık'tan itibaren ambalaj mürekkep ve kaplamalarına zam yapacağını duyurdu. TiO2 üreticileri 4. çeyrekte mevsimsel olarak daha zayıf talep bekliyor.",
+   "Türkiye'de iç talep zayıf, dış satış güçlü. İSO İmalat PMI 47,3 ile 31. aydır 50'nin altında kaldı; DYO'nun 9 aylık sonuçlarında üretim %24, satış tonajı %22 geriledi. Ekimde Yİ-ÜFE yıllık %27,41 oldu. Buna karşılık kimya sektörünün ihracatı ekimde %13,7 artışla 3,01 milyar $'a, ilk 10 ayda %7 artışla 28,8 milyar $'a ulaştı.",
+   "Sektör yapısında hareketlilik sürüyor: AkzoNobel–Axalta birleşmesi Avrupa Komisyonu'ndan şartlı onay aldı, Evonik BASF'ın 12,5 milyar $'lık teklifini reddetti, RPM Volteco'yu, Protech Group Ripol'ü satın aldı. Türkiye'de Mipa İzmir'de şirket kurdu, Betek su bazlı kapasitesini 345 bin tona çıkarıyor. Kansai Paint'in yarıyılda satışı %11,7 artarken net kârı %49,1 geriledi."
   ],
   "body_en": [
-   "The main theme this week is raw material costs. Tronox said the TiO2 price increases made in Q2 will hold in Q4. Olin announced an epoxy price increase and a fuel surcharge; EU safeguard measures for epoxy are on the agenda. Oxea also raised solvent and intermediate prices by €80–100 per tonne from 1 November.",
-   "Demand in Türkiye is weak. The İSO Manufacturing PMI stood at 47.3, below 50 for the 31st month; DYO's 9-month results showed production down 24% and sales tonnage down 22%. Crude steel output rose 6.1% in 9 months, but final consumption fell 6.9% in September.",
-   "The industry structure is changing: the AkzoNobel–Axalta merger received conditional approval from the European Commission, Kansai Paint took full ownership of Polisan Kansai Boya, and Betek is raising its waterborne capacity to 345 thousand tonnes. Protective and marine coatings remain the growth segment (PPG's organic sales grew by a high single digit)."
+   "Last week's main theme was raw material costs. Tronox said it will hold its TiO2 price increases in Q4, while TiO2 prices rose 10% year on year at Chemours and the average selling price rose 5% at Kronos. Oxea raised solvent prices by €80–100 per tonne; Flint Group also announced price increases for packaging inks and coatings from 14 December, citing energy, freight, pigment and petrochemical inputs. TiO2 producers expect seasonally weaker demand in Q4.",
+   "In Türkiye, domestic demand is weak while exports are strong. The İSO Manufacturing PMI stood at 47.3, below 50 for the 31st month; DYO's 9-month results showed production down 24% and sales tonnage down 22%. Domestic PPI was 27.41% year on year in October. In contrast, chemical sector exports rose 13.7% to USD 3.01 billion in October and 7% to USD 28.8 billion in the first 10 months.",
+   "Movement in the industry structure continues: the AkzoNobel–Axalta merger received conditional approval from the European Commission, Evonik rejected BASF's USD 12.5 billion offer, RPM is acquiring Volteco and Protech Group acquired Ripol. In Türkiye, Mipa established a company in İzmir and Betek is raising its waterborne capacity to 345 thousand tonnes. Kansai Paint's half-year sales rose 11.7% while net profit fell 49.1%."
   ]
  },
  "news": [
+  {
+   "id": "2026-11-06-mipa-turkiye",
+   "date": "2026-11-06",
+   "cat": "ure",
+   "geo": "tr",
+   "h": "Mipa, İzmir'de Türkiye şirketini kurdu",
+   "h_en": "Mipa establishes Türkiye subsidiary in İzmir",
+   "t": "Alman boya üreticisi Mipa, İzmir merkezli Mipa Boya Kimya'yı kurdu; Alp Korkmaz yönetimindeki yaklaşık 10 kişilik ekip ilk etapta oto tamir boyalarına odaklanacak, diğer iş kolları sonra eklenecek",
+   "t_en": "German coatings manufacturer Mipa established İzmir-based Mipa Boya Kimya; the team of about 10 employees led by Alp Korkmaz will initially focus on automotive refinish coatings, with other business segments to be added later",
+   "imp": "Türkiye'yi Balkanlar ve Orta Doğu'ya açılan kapı olarak gören Avrupalı üreticilerin yerel yapılanması oto tamir boyası pazarında arzı çeşitlendiriyor",
+   "imp_en": "local set-ups by European manufacturers that see Türkiye as a gateway to the Balkans and the Middle East are diversifying supply in the automotive refinish market",
+   "src": "European Coatings",
+   "url": "https://www.european-coatings.com/news/markets-companies/mipa-expands-into-turkey-with-new-subsidiary/",
+   "top": true
+  },
   {
    "id": "2026-11-06-0",
    "date": "2026-11-06",
@@ -49,6 +64,21 @@
    "h_en": "Tronox: TiO2 price increases to hold in Q4"
   },
   {
+   "id": "2026-11-06-kansai-h1",
+   "date": "2026-11-06",
+   "cat": "ure",
+   "geo": "dunya",
+   "h": "Kansai Paint'te satış arttı, kâr yarıya indi",
+   "h_en": "Kansai Paint's sales rise as profit halves",
+   "t": "Kansai Paint 30 Eylül'de biten altı ayda net satışlarını %11,7 artışla 323,1 milyar ¥'e çıkardı; faaliyet kârı %11,9 düşüşle 21,4 milyar ¥, ana ortaklık net kârı %49,1 düşüşle 8,2 milyar ¥ oldu",
+   "t_en": "Kansai Paint increased net sales by 11.7% to JPY 323.1 billion in the six months ended 30 September; operating profit fell 11.9% to JPY 21.4 billion and profit attributable to owners fell 49.1% to JPY 8.2 billion",
+   "imp": "Polisan Kansai'nin tamamını alan grubun kârlılık baskısı, Türkiye operasyonundan beklentileri de etkileyebilir",
+   "imp_en": "the profitability pressure at the group that took full ownership of Polisan Kansai may also shape expectations for its Türkiye operation",
+   "src": "TipRanks",
+   "url": "https://tipranks.com/news/company-announcements/kansai-paint-reports-higher-sales-but-steeper-profit-declines",
+   "top": true
+  },
+  {
    "id": "2026-11-06-rpm-volteco",
    "date": "2026-11-06",
    "cat": "ure",
@@ -61,6 +91,36 @@
    "imp_en": "consolidation by large groups in construction chemicals and waterproofing in Europe continues",
    "src": "American Coatings Association",
    "url": "https://www.paint.org/rpm-acquires-volteco/",
+   "top": false
+  },
+  {
+   "id": "2026-11-06-covestro-meppen",
+   "date": "2026-11-06",
+   "cat": "ham",
+   "geo": "dunya",
+   "h": "Covestro Meppen'de yeni poliester reçine hattı açtı",
+   "h_en": "Covestro opens new polyester resin line in Meppen",
+   "t": "Covestro, Almanya Meppen tesisinde poliester, alkid ve akrilik reçine üretebilen yeni hattı devreye aldı; hat çift haneli bin ton düzeyinde kapasite ekliyor ve ambalaj, coil ve endüstriyel kaplamalara hizmet veriyor",
+   "t_en": "Covestro commissioned a new line at its Meppen site in Germany that can produce polyester, alkyd and acrylic resins; the line adds capacity in the double-digit kilotonne range and serves can, coil and industrial coatings",
+   "imp": "Avrupa'da reçine arzının artması coil ve endüstriyel kaplama üreticileri için tedarik seçeneklerini genişletiyor",
+   "imp_en": "increased resin supply in Europe widens sourcing options for coil and industrial coatings producers",
+   "src": "European Coatings",
+   "url": "https://www.european-coatings.com/news/markets-companies/covestro-opens-new-production-line-in-meppen/",
+   "top": false
+  },
+  {
+   "id": "2026-11-05-ikmib-kimya-ihracat-ekim",
+   "date": "2026-11-05",
+   "cat": "pzr",
+   "geo": "tr",
+   "h": "Kimya ihracatı 10 ayda 28,8 milyar $'a ulaştı",
+   "h_en": "Chemical exports reach USD 28.8 billion in 10 months",
+   "t": "İKMİB verilerine göre kimya sektörü ekimde ihracatını %13,7 artırarak 3,01 milyar $'a çıkardı; ocak–ekim ihracatı %7 artışla 28,8 milyar $ ile ilk 10 ay rekoru oldu, yıl sonu hedefi 35 milyar $",
+   "t_en": "According to İKMİB data, the chemical sector increased exports by 13.7% to USD 3.01 billion in October; January–October exports rose 7% to USD 28.8 billion, a record for the first 10 months, with a year-end target of USD 35 billion",
+   "imp": "zayıf iç talebe karşın ihracattaki ivme, boya ve kaplama üreticileri için dış pazarların önemini artırıyor",
+   "imp_en": "the momentum in exports despite weak domestic demand increases the importance of foreign markets for paint and coatings producers",
+   "src": "Milliyet Uzmanpara / AA",
+   "url": "https://uzmanpara.milliyet.com.tr/uzmanpara/kimya-sektorunden-10-ayda-28-8-milyar-dolarlik-ihracat-rekoru-7694841",
    "top": true
   },
   {
@@ -91,7 +151,22 @@
    "imp_en": "higher TiO2 prices keep pressure on topcoat costs, while demand is expected to slow in Q4",
    "src": "Kronos Worldwide (SEC)",
    "url": "https://www.sec.gov/Archives/edgar/data/0001257640/000125764026000035/kro-ex99d1.htm",
-   "top": true
+   "top": false
+  },
+  {
+   "id": "2026-11-05-flint-zam",
+   "date": "2026-11-05",
+   "cat": "ham",
+   "geo": "dunya",
+   "h": "Flint Group ambalaj mürekkep ve kaplamalarına zam yapıyor",
+   "h_en": "Flint Group raises prices for packaging inks and coatings",
+   "t": "Flint Group Packaging Solutions, ABD ve Kanada'da ambalaj mürekkebi ve kaplama ürünlerinde 14 Aralık 2026'dan itibaren fiyat artışına gidiyor; gerekçe olarak enerji ve navlun maliyetleri, Çin kaynaklı pigment arzı darlığı ve petrokimya girdilerindeki artışı gösterdi",
+   "t_en": "Flint Group Packaging Solutions is raising prices for packaging inks and coatings in the US and Canada from 14 December 2026, citing energy and ocean freight costs, pigment supply shortages originating in China and higher petrochemical input costs",
+   "imp": "pigment, çözücü ve reçinedeki maliyet baskısının yıl sonuna doğru mamul fiyatlarına yansımaya devam ettiğini gösteriyor",
+   "imp_en": "it shows that cost pressure in pigments, solvents and resins continues to pass through to finished product prices toward year-end",
+   "src": "Pulp & Paper News",
+   "url": "https://www.pulpapernews.com/20261105/18352/flint-group-packaging-solutions-hike-price-packaging-inks-and-coatings",
+   "top": false
   },
   {
    "id": "2026-11-03-3",
@@ -136,7 +211,7 @@
    "imp_en": "rising producer prices continue to shape input costs and pricing for paint manufacturers in Türkiye",
    "src": "CNBC-e",
    "url": "https://www.cnbce.com/veriler/tuik-duyurdu-ekim-ayi-enflasyon-verisi-belli-oldu-h40884",
-   "top": true
+   "top": false
   },
   {
    "id": "2026-11-03-3m-pfas",
@@ -166,6 +241,36 @@
    "imp_en": "automation in automotive paint shops continues to spread",
    "src": "American Coatings Association",
    "url": "https://www.paint.org/durr-delivers-20000th-painting-robot/",
+   "top": false
+  },
+  {
+   "id": "2026-11-03-protech-ripol",
+   "date": "2026-11-03",
+   "cat": "ure",
+   "geo": "dunya",
+   "h": "Protech Group, İtalyan toz boya üreticisi Ripol'ü aldı",
+   "h_en": "Protech Group acquires Italian powder coatings maker Ripol",
+   "t": "The Protech Group, Milano yakınlarındaki toz boya üreticisi Ripol S.r.l.'nin satın alımını tamamladı; Ripol'ün Almanya, Hollanda, Polonya, İspanya ve İsviçre'de bağlı operasyonları bulunuyor",
+   "t_en": "The Protech Group completed its acquisition of Ripol S.r.l., a powder coatings manufacturer near Milan; Ripol has affiliated operations in Germany, the Netherlands, Poland, Spain and Switzerland",
+   "imp": "Avrupa toz boya pazarında konsolidasyon sürüyor",
+   "imp_en": "consolidation continues in the European powder coatings market",
+   "src": "American Coatings Association",
+   "url": "https://www.paint.org/the-protech-group-acquires-italian-powder-coatings-manufacturer-ripol-s-r-l/",
+   "top": false
+  },
+  {
+   "id": "2026-11-03-roberlo-briolf",
+   "date": "2026-11-03",
+   "cat": "ure",
+   "geo": "dunya",
+   "h": "Roberlo'nun ticari unvanı Briolf Coatings oldu",
+   "h_en": "Roberlo's legal name becomes Briolf Coatings",
+   "t": "Briolf grubuna bağlı Roberlo S.A.U.'nun ticari unvanı Briolf Coatings S.A.U. olarak değişti; Roberlo markası korunuyor, faaliyet ve ortaklık yapısı değişmiyor",
+   "t_en": "Roberlo S.A.U., part of the Briolf group, changed its legal name to Briolf Coatings S.A.U.; the Roberlo brand is retained and activities and ownership are unchanged",
+   "imp": "oto tamir boyası tedarikçisinin grup yapısıyla uyumlanması müşteri ilişkilerini etkilemiyor",
+   "imp_en": "aligning the automotive refinish supplier with its group structure does not affect customer relationships",
+   "src": "American Coatings Association",
+   "url": "https://www.paint.org/roberlo-renames-to-briolf-coatings/",
    "top": false
   },
   {
