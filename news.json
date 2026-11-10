@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-09",
- "brief": "Alman üretici Mipa İzmir'de Türkiye şirketini kurarken kimya sektörünün ihracatı 10 ayda %7 artışla 28,8 milyar $ ile rekor kırdı. Dünyada AkzoNobel–Axalta birleşmesi AB'den şartlı onay aldı, Kansai Paint'in yarıyıl kârı ise %49 geriledi.",
- "brief_en": "German manufacturer Mipa established its Türkiye subsidiary in İzmir, while chemical sector exports rose 7% to a record USD 28.8 billion in 10 months. Globally, the AkzoNobel–Axalta merger received conditional EU approval, while Kansai Paint's half-year profit fell 49%.",
+ "updated": "2026-11-10",
+ "brief": "Evonik üçüncü çeyrekte FAVÖK'ünü %40 artırıp yıllık beklentisini yükseltirken Asian Paints Dahej'de 150 bin tonluk VAE emülsiyon üretimine başladı. Kearney ise küresel tedarik zinciri maliyetlerinin 2027'nin ilk yarısında %2,7 ile %6,7 arasında artabileceğini öngördü.",
+ "brief_en": "Evonik raised its third-quarter EBITDA by 40% and lifted its annual outlook, while Asian Paints started 150,000-ton VAE emulsion production at Dahej. Kearney projected that global supply chain costs could rise between 2.7% and 6.7% in the first half of 2027.",
  "weekly": {
   "week": "2026-11-09",
   "title": "Maliyet baskısı sürüyor, yapı değişiyor",
@@ -18,6 +18,21 @@
   ]
  },
  "news": [
+  {
+   "id": "2026-11-09-kearney-tedarik-maliyet",
+   "date": "2026-11-09",
+   "cat": "pzr",
+   "geo": "dunya",
+   "h": "Tedarik zinciri maliyetleri 2027'de artabilir",
+   "h_en": "Supply chain costs could rise in 2027",
+   "t": "Kearney'in Supply Chain Navigator raporuna göre küresel tedarik zinciri maliyetleri 2027'nin ilk yarısında temel senaryoda %2,7, risk senaryosunda %6,7 artabilir. Artışın başlıca nedeni olarak jeopolitik risk göstergeleri öne çıkıyor.",
+   "t_en": "According to Kearney's Supply Chain Navigator report, global supply chain costs could rise 2.7% in the first half of 2027 in the baseline scenario and 6.7% in the risk scenario. Geopolitical risk indicators stand out as the main driver.",
+   "imp": "İthal hammaddeye bağımlı boya üreticileri için 2027 satın alma ve lojistik bütçelerinde ek maliyet baskısı anlamına gelebilir.",
+   "imp_en": "It may mean additional cost pressure on 2027 procurement and logistics budgets for paint makers dependent on imported raw materials.",
+   "src": "PCI Magazine",
+   "url": "https://www.pcimag.com/articles/115491-supply-chain-costs-could-rise-further-in-2027-report-finds",
+   "top": false
+  },
   {
    "id": "2026-11-06-mipa-turkiye",
    "date": "2026-11-06",
@@ -166,6 +181,51 @@
    "imp_en": "it shows that cost pressure in pigments, solvents and resins continues to pass through to finished product prices toward year-end",
    "src": "Pulp & Paper News",
    "url": "https://www.pulpapernews.com/20261105/18352/flint-group-packaging-solutions-hike-price-packaging-inks-and-coatings",
+   "top": false
+  },
+  {
+   "id": "2026-11-05-asian-paints-vae",
+   "date": "2026-11-05",
+   "cat": "ham",
+   "geo": "dunya",
+   "h": "Asian Paints Dahej'de VAE emülsiyon üretimine başladı",
+   "h_en": "Asian Paints starts VAE emulsion production at Dahej",
+   "t": "Asian Paints, Hindistan'ın Gujarat eyaletindeki Dahej tesisinde yıllık 150.000 ton kapasiteli vinil asetat etilen (VAE) emülsiyon üretimine ticari olarak başladı. Üretim ağırlıklı olarak şirketin kendi boya fabrikalarında kullanılacak; 100.000 tonluk VAM tesisinin inşaatı sürüyor.",
+   "t_en": "Asian Paints has started commercial production of vinyl acetate ethylene (VAE) emulsion with an annual capacity of 150,000 tons at its Dahej site in Gujarat, India. Output will mainly be used in the company's own paint plants; construction of the 100,000-ton VAM plant is ongoing.",
+   "imp": "Büyük boya üreticilerinin bağlayıcı üretimini kendi bünyesine alması, emülsiyon tedarik dengesini bölgesel olarak değiştirebilir.",
+   "imp_en": "Large paint makers bringing binder production in-house may shift the emulsion supply balance regionally.",
+   "src": "European Coatings",
+   "url": "https://www.european-coatings.com/news/markets-companies/asian-paints-launches-vae-emulsion-production-at-dahej-facility/",
+   "top": false
+  },
+  {
+   "id": "2026-11-05-evonik-q3",
+   "date": "2026-11-05",
+   "cat": "ure",
+   "geo": "dunya",
+   "h": "Evonik'in üçüncü çeyrek FAVÖK'ü %40 arttı",
+   "h_en": "Evonik's third-quarter EBITDA rose 40%",
+   "t": "Evonik'in düzeltilmiş FAVÖK'ü üçüncü çeyrekte %40 artışla 629 milyon €'ya, gelirleri %13 yükseldi. Şirket 2026 FAVÖK beklentisini 2,0–2,2 milyar € aralığının üst yarısına taşıdı; boya ve kaplama katkılarında talep ve fiyatlar olumlu seyretti.",
+   "t_en": "Evonik's adjusted EBITDA rose 40% to EUR 629 million in the third quarter, and revenue increased 13%. The company moved its 2026 EBITDA expectation to the upper half of the EUR 2.0–2.2 billion range; demand and prices for paint and coatings additives developed positively.",
+   "imp": "Kaplama katkılarında fiyatların yükselmesi, formülasyon maliyetlerinde yukarı yönlü baskının sürdüğüne işaret ediyor.",
+   "imp_en": "Rising prices for coatings additives indicate that upward pressure on formulation costs continues.",
+   "src": "European Coatings",
+   "url": "https://www.european-coatings.com/news/markets-companies/evonik-posts-strong-q3-2026-results-and-raises-outlook/",
+   "top": false
+  },
+  {
+   "id": "2026-11-05-evonik-essen-silikon",
+   "date": "2026-11-05",
+   "cat": "ham",
+   "geo": "dunya",
+   "h": "Evonik Essen'de silikon kapasitesini genişletti",
+   "h_en": "Evonik expands silicone capacity in Essen",
+   "t": "Evonik, Essen tesisindeki silikon platformunun 52 milyon €'luk genişlemesini tamamladı. Yeni tesis ve tank depolama alanı, kaplama ve yapıştırıcılarda kullanılan organomodifiye silikonların üretimini artırıyor.",
+   "t_en": "Evonik has completed the EUR 52 million expansion of its silicone platform at its Essen site. The new plant and tank storage facility increase output of organomodified silicones used in coatings and adhesives.",
+   "imp": "Avrupa'da silikon esaslı katkı tedarikinin güçlenmesi anlamına geliyor.",
+   "imp_en": "It means stronger supply of silicone-based additives in Europe.",
+   "src": "European Coatings",
+   "url": "https://www.european-coatings.com/news/markets-companies/evonik-expands-silicone-platform-in-essen/",
    "top": false
   },
   {
@@ -347,6 +407,21 @@
    "top": false,
    "h": "Olin epoksiye zam ve yakıt ek ücreti getirdi",
    "h_en": "Olin adds epoxy price increase and fuel surcharge"
+  },
+  {
+   "id": "2026-10-29-akzonobel-toz-60m",
+   "date": "2026-10-29",
+   "cat": "ure",
+   "geo": "dunya",
+   "h": "AkzoNobel'den Kuzey Amerika'ya 60 milyon $'lık toz boya yatırımı",
+   "h_en": "AkzoNobel invests USD 60 million in North American powder coatings",
+   "t": "AkzoNobel, Kuzey Amerika toz boya ağında 60 milyon $'lık yatırım programını üretim aşamasına taşıdı; Reading (Pennsylvania), Warsaw (Indiana) ve Monterrey (Meksika) tesislerinde yeni hatlar ve otomasyon devreye alınıyor. Nashville'deki üretim 2026 sonunda kapatılarak bu tesislere aktarılacak.",
+   "t_en": "AkzoNobel has moved its USD 60 million investment program in its North American powder coatings network into production; new lines and automation are being introduced at the Reading (Pennsylvania), Warsaw (Indiana) and Monterrey (Mexico) sites. Production in Nashville will be closed by the end of 2026 and transferred to these sites.",
+   "imp": "Toz boyada bölgesel kapasite ve otomasyon yatırımlarının sürdüğünü gösteriyor.",
+   "imp_en": "It shows that regional capacity and automation investments in powder coatings continue.",
+   "src": "PCI Magazine",
+   "url": "https://www.pcimag.com/articles/115441-akzonobel-advances-60-million-north-american-powder-coatings-program",
+   "top": false
   },
   {
    "id": "2026-10-28-9",
