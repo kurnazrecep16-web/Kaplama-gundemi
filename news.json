@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-10",
- "brief": "Evonik üçüncü çeyrekte FAVÖK'ünü %40 artırıp yıllık beklentisini yükseltirken Asian Paints Dahej'de 150 bin tonluk VAE emülsiyon üretimine başladı. Kearney ise küresel tedarik zinciri maliyetlerinin 2027'nin ilk yarısında %2,7 ile %6,7 arasında artabileceğini öngördü.",
- "brief_en": "Evonik raised its third-quarter EBITDA by 40% and lifted its annual outlook, while Asian Paints started 150,000-ton VAE emulsion production at Dahej. Kearney projected that global supply chain costs could rise between 2.7% and 6.7% in the first half of 2027.",
+ "updated": "2026-11-11",
+ "brief": "TÜİK verilerine göre eylülde inşaat maliyetleri yıllık %30,8, sanayi üretimi %2,6 arttı; malzeme maliyetlerindeki yükseliş sürüyor. Dünyada PPG Comex Meksika'da 118 milyon $'lık reçine tesisi kuracağını açıklarken RPM 2030 için 10 milyar $ satış ve %20 FAVÖK marjı hedefledi.",
+ "brief_en": "According to TÜİK data, construction costs rose 30.8% and industrial production 2.6% year on year in September; the rise in materials costs continues. Globally, PPG Comex announced it will build a USD 118 million resin plant in Mexico, while RPM targeted USD 10 billion in sales and a 20% EBITDA margin for 2030.",
  "weekly": {
   "week": "2026-11-09",
   "title": "Maliyet baskısı sürüyor, yapı değişiyor",
@@ -18,6 +18,81 @@
   ]
  },
  "news": [
+  {
+   "id": "2026-11-10-tr-insaat-maliyet-eylul",
+   "date": "2026-11-10",
+   "cat": "pzr",
+   "geo": "tr",
+   "h": "İnşaat maliyetleri eylülde yıllık %30,8 arttı",
+   "h_en": "Construction costs up 30.8% year on year in September",
+   "t": "TÜİK verilerine göre inşaat maliyet endeksi eylülde aylık %1,81, yıllık %30,8 yükseldi; malzeme endeksi yıllık %31,31, işçilik endeksi %29,84 arttı. Bina dışı yapılarda yıllık artış %35,66 oldu.",
+   "t_en": "According to TÜİK data, the construction cost index rose 1.81% month on month and 30.8% year on year in September; the materials index rose 31.31% and the labour index 29.84% year on year. The annual increase for non-building structures was 35.66%.",
+   "imp": "Malzeme maliyetlerindeki artış, boya dahil yapı malzemelerinde fiyat geçişinin sürdüğüne işaret ediyor.",
+   "imp_en": "The rise in materials costs indicates that price pass-through continues across building materials, including paint.",
+   "src": "A Haber",
+   "url": "https://www.ahaber.com.tr/ekonomi/2026/11/10/tuik-eylul-insaat-maliyet-endeksi-verilerini-acikladi",
+   "top": true
+  },
+  {
+   "id": "2026-11-10-tr-sanayi-uretimi-eylul",
+   "date": "2026-11-10",
+   "cat": "pzr",
+   "geo": "tr",
+   "h": "Sanayi üretimi eylülde yıllık %2,6 arttı",
+   "h_en": "Industrial production up 2.6% year on year in September",
+   "t": "TÜİK verilerine göre sanayi üretimi eylülde aylık %2,1, yıllık %2,6 yükseldi. İmalat sanayi üretimi aylık %2,3, yıllık %2,6 arttı.",
+   "t_en": "According to TÜİK data, industrial production rose 2.1% month on month and 2.6% year on year in September. Manufacturing output rose 2.3% month on month and 2.6% year on year.",
+   "imp": "İmalattaki toparlanma, endüstriyel ve genel endüstriyel boya talebi için olumlu bir sinyal.",
+   "imp_en": "The recovery in manufacturing is a positive signal for industrial and general industrial coatings demand.",
+   "src": "Takvim",
+   "url": "https://www.takvim.com.tr/ekonomi/2026/11/10/tuik-2026-eylul-ayi-sanayi-uretimi-verilerini-acikladi",
+   "top": true
+  },
+  {
+   "id": "2026-11-10-ppg-comex-recine-meksika",
+   "date": "2026-11-10",
+   "cat": "ure",
+   "geo": "dunya",
+   "h": "PPG Comex Meksika'da 118 milyon $'lık reçine tesisi kuruyor",
+   "h_en": "PPG Comex to build USD 118 million resin plant in Mexico",
+   "t": "PPG Comex, Meksika'nın Acolman (Estado de México) bölgesinde yaklaşık 2,4 milyar peso (118 milyon $) yatırımla yeni bir reçine üretim tesisi kuracak. Tesisin yaklaşık 500 kişilik istihdam sağlaması bekleniyor.",
+   "t_en": "PPG Comex will build a new resin manufacturing plant in Acolman (Estado de México), Mexico, with an investment of about MXN 2.4 billion (USD 118 million). The plant is expected to create about 500 jobs.",
+   "imp": "Boya üreticilerinin reçine tedarikini içselleştirerek ithal hammaddeye bağımlılığı azaltma eğilimini gösteriyor.",
+   "imp_en": "It reflects the trend among paint producers to internalise resin supply and reduce reliance on imported raw materials.",
+   "src": "European Coatings",
+   "url": "https://european-coatings.com/news/markets-companies/ppg-comex-invests-usd-118-million-in-new-mexican-resin-plant",
+   "top": true
+  },
+  {
+   "id": "2026-11-10-azelis-susonity-dach",
+   "date": "2026-11-10",
+   "cat": "ham",
+   "geo": "dunya",
+   "h": "Azelis, Susonity dağıtımını DACH bölgesine genişletiyor",
+   "h_en": "Azelis extends Susonity distribution to the DACH region",
+   "t": "Azelis, efekt pigment ve fonksiyonel malzeme üreticisi Susonity ile dağıtım ortaklığını 1 Ocak 2027'den itibaren Almanya, Avusturya ve İsviçre'yi kapsayacak şekilde genişletiyor. Portföyde ısı yansıtıcı, iletken ve koruyucu kaplamalara yönelik ürünler bulunuyor.",
+   "t_en": "Azelis is extending its distribution partnership with effect pigment and functional materials producer Susonity to cover Germany, Austria and Switzerland from 1 January 2027. The portfolio includes products for heat-reflective, conductive and protective coatings.",
+   "imp": "Özel pigment tedarikinde distribütör konsolidasyonunun sürdüğünü gösteriyor.",
+   "imp_en": "It shows that distributor consolidation continues in specialty pigment supply.",
+   "src": "European Coatings",
+   "url": "https://www.european-coatings.com/news/markets-companies/azelis-expands-distribution-partnership-with-susonity-into-dach/",
+   "top": false
+  },
+  {
+   "id": "2026-11-09-rpm-map2030",
+   "date": "2026-11-09",
+   "cat": "ure",
+   "geo": "dunya",
+   "h": "RPM, 2030 için 10 milyar $ satış hedefledi",
+   "h_en": "RPM targets USD 10 billion in sales by 2030",
+   "t": "RPM, 9 Kasım'daki yatırımcı gününde MAP 2030 programını açıkladı: 2030 mali yılı için 10 milyar $ satış ve %20 düzeltilmiş FAVÖK marjı hedefleniyor. 2026 mali yılında satışlar 7,9 milyar $, FAVÖK marjı %15,6 olmuştu.",
+   "t_en": "At its investor day on 9 November, RPM unveiled its MAP 2030 programme: it targets USD 10 billion in sales and a 20% adjusted EBITDA margin for fiscal 2030. In fiscal 2026, sales were USD 7.9 billion and the EBITDA margin was 15.6%.",
+   "imp": "Koruyucu kaplama ve yapı kimyasallarında satın almalarla büyümenin süreceğine işaret ediyor.",
+   "imp_en": "It signals that acquisition-led growth will continue in protective coatings and construction chemicals.",
+   "src": "SEC (RPM International)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000110621/000119312526452970/d152872dex991.htm",
+   "top": true
+  },
   {
    "id": "2026-11-09-kearney-tedarik-maliyet",
    "date": "2026-11-09",
@@ -46,7 +121,7 @@
    "imp_en": "local set-ups by European manufacturers that see Türkiye as a gateway to the Balkans and the Middle East are diversifying supply in the automotive refinish market",
    "src": "European Coatings",
    "url": "https://www.european-coatings.com/news/markets-companies/mipa-expands-into-turkey-with-new-subsidiary/",
-   "top": true
+   "top": false
   },
   {
    "id": "2026-11-06-0",
@@ -74,7 +149,7 @@
    "imp_en": "TiO2 prices staying high supports topcoat costs",
    "src": "PCI Magazine",
    "url": "https://www.pcimag.com/articles/115510-tronox-tio-sales-rise-19-as-demand-signals-diverge",
-   "top": true,
+   "top": false,
    "h": "Tronox: TiO2 zamları 4. çeyrekte de sürecek",
    "h_en": "Tronox: TiO2 price increases to hold in Q4"
   },
@@ -91,7 +166,7 @@
    "imp_en": "the profitability pressure at the group that took full ownership of Polisan Kansai may also shape expectations for its Türkiye operation",
    "src": "TipRanks",
    "url": "https://tipranks.com/news/company-announcements/kansai-paint-reports-higher-sales-but-steeper-profit-declines",
-   "top": true
+   "top": false
   },
   {
    "id": "2026-11-06-rpm-volteco",
@@ -124,6 +199,21 @@
    "top": false
   },
   {
+   "id": "2026-11-05-alta-basf-palatal",
+   "date": "2026-11-05",
+   "cat": "ure",
+   "geo": "dunya",
+   "h": "ALTA, BASF'ın Palatal reçine işini alıyor",
+   "h_en": "ALTA to acquire BASF's Palatal resin business",
+   "t": "ALTA Performance Materials, BASF'ın Şili'nin Concón kentinde üretim yapan vinil ester ve doymamış polyester reçine işi Palatal'ı satın almak için anlaşma imzaladı. İşlem düzenleyici onaylara bağlı.",
+   "t_en": "ALTA Performance Materials signed an agreement to acquire Palatal, BASF's vinyl ester and unsaturated polyester resin business that produces in Concón, Chile. The transaction is subject to regulatory approvals.",
+   "imp": "BASF'ın portföy sadeleştirmesinin reçine tarafında da sürdüğünü gösteriyor.",
+   "imp_en": "It shows that BASF's portfolio streamlining is continuing on the resin side as well.",
+   "src": "Newswire",
+   "url": "https://www.newswire.ca/news-releases/alta-performance-materials-signs-agreement-to-acquire-basf-s-palatal-business-unit-815653845.html",
+   "top": false
+  },
+  {
    "id": "2026-11-05-ikmib-kimya-ihracat-ekim",
    "date": "2026-11-05",
    "cat": "pzr",
@@ -136,7 +226,7 @@
    "imp_en": "the momentum in exports despite weak domestic demand increases the importance of foreign markets for paint and coatings producers",
    "src": "Milliyet Uzmanpara / AA",
    "url": "https://uzmanpara.milliyet.com.tr/uzmanpara/kimya-sektorunden-10-ayda-28-8-milyar-dolarlik-ihracat-rekoru-7694841",
-   "top": true
+   "top": false
   },
   {
    "id": "2026-11-05-2",
