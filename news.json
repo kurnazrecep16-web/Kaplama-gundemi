@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-11",
- "brief": "TÜİK verilerine göre eylülde inşaat maliyetleri yıllık %30,8, sanayi üretimi %2,6 arttı; malzeme maliyetlerindeki yükseliş sürüyor. Dünyada PPG Comex Meksika'da 118 milyon $'lık reçine tesisi kuracağını açıklarken RPM 2030 için 10 milyar $ satış ve %20 FAVÖK marjı hedefledi.",
- "brief_en": "According to TÜİK data, construction costs rose 30.8% and industrial production 2.6% year on year in September; the rise in materials costs continues. Globally, PPG Comex announced it will build a USD 118 million resin plant in Mexico, while RPM targeted USD 10 billion in sales and a 20% EBITDA margin for 2030.",
+ "updated": "2026-11-12",
+ "brief": "İngiltere Rekabet ve Piyasalar Otoritesi, AkzoNobel–Axalta birleşmesinde İngiltere oto tamir boyası pazarında rekabet endişesi tespit ederek şirketlere 18 Kasım'a kadar çözüm önerisi süresi verdi; şirketler AB'ye sunulan satış paketini kullanacak. Nippon Paint üçüncü çeyrekte gelirini %12,4 artırırken, fotobaşlatıcı üreticisi IGM Resins'in Çinli Jiuri liderliğindeki konsorsiyuma satışı açıklandı.",
+ "brief_en": "The UK Competition and Markets Authority found competition concerns in the UK vehicle refinish coatings market in the AkzoNobel–Axalta merger and gave the companies until 18 November to offer a remedy; the companies will use the divestment package offered to the EU. Nippon Paint increased its third-quarter revenue by 12.4%, while the sale of photoinitiator maker IGM Resins to a consortium led by China's Jiuri was announced.",
  "weekly": {
   "week": "2026-11-09",
   "title": "Maliyet baskısı sürüyor, yapı değişiyor",
@@ -18,6 +18,36 @@
   ]
  },
  "news": [
+  {
+   "id": "2026-11-11-cma-akzonobel-axalta",
+   "date": "2026-11-11",
+   "cat": "ure",
+   "geo": "dunya",
+   "h": "İngiltere'den AkzoNobel–Axalta'ya oto tamir boyası itirazı",
+   "h_en": "UK raises vehicle refinish objection to AkzoNobel–Axalta",
+   "t": "İngiltere Rekabet ve Piyasalar Otoritesi (CMA) 11 Kasım'daki ilk aşama kararında, birleşmenin İngiltere oto tamir boyası pazarında rekabeti önemli ölçüde azaltabileceğini belirtti; iki şirketin bu pazardaki payı yaklaşık %40–50. Şirketlere 18 Kasım'a kadar çözüm önerisi sunma süresi verildi; şirketler AB'ye sunulan Avrupa oto tamir boyası işinin satışı önerisini kullanacak ve birleşmenin 2027 başında tamamlanmasını bekliyor.",
+   "t_en": "In its Phase 1 decision on 11 November, the UK Competition and Markets Authority (CMA) said the merger could substantially lessen competition in the UK vehicle refinish coatings market, where the two companies hold a combined share of about 40–50%. The companies were given until 18 November to offer a remedy; they will use the divestment of the European vehicle refinish business offered to the EU and expect the merger to complete in early 2027.",
+   "imp": "Toz boyada sorun görülmemesi ve çözümün AB paketiyle aynı olması, birleşmenin takvimini koruyabilir; Avrupa oto tamir boyası işinin yeni sahibi Türkiye dahil bölge dağıtım yapısını etkileyebilir.",
+   "imp_en": "With no concerns found in powder coatings and the remedy matching the EU package, the merger timeline may hold; the new owner of the European vehicle refinish business could affect regional distribution structures, including in Türkiye.",
+   "src": "PCI Magazine",
+   "url": "https://www.pcimag.com/articles/115516-uk-regulator-gives-akzonobel-axalta-one-week-to-offer-remedy",
+   "top": true
+  },
+  {
+   "id": "2026-11-11-nippon-paint-q3",
+   "date": "2026-11-11",
+   "cat": "ure",
+   "geo": "dunya",
+   "h": "Nippon Paint'te üçüncü çeyrek satışları %12,4 arttı",
+   "h_en": "Nippon Paint third-quarter revenue rises 12.4%",
+   "t": "Nippon Paint Holdings'in üçüncü çeyrek geliri yıllık %12,4 artışla 523,7 milyar yene, düzeltilmiş faaliyet kârı %15,3 artışla 84,2 milyar yene ulaştı. Şirket yıllık 2.000 milyar yen gelir ve 316 milyar yen düzeltilmiş faaliyet kârı hedefini korurken dördüncü çeyrekte faaliyet kârının %5–10 düşmesini bekliyor.",
+   "t_en": "Nippon Paint Holdings' third-quarter revenue rose 12.4% year on year to JPY 523.7 billion and adjusted operating profit increased 15.3% to JPY 84.2 billion. The company kept its full-year targets of JPY 2,000 billion in revenue and JPY 316 billion in adjusted operating profit, while expecting fourth-quarter operating profit to fall 5–10%.",
+   "imp": "Türkiye'de Betek ve Nippon Paint sanayi boyalarıyla faaliyet gösteren grubun güçlü sonuçları yatırım iştahını desteklerken, dördüncü çeyrek için zayıf kâr beklentisi maliyet baskısının sürdüğüne işaret ediyor.",
+   "imp_en": "Strong results at the group, which operates in Türkiye through Betek and Nippon Paint industrial coatings, support its investment appetite, while the weak fourth-quarter profit outlook points to continuing cost pressure.",
+   "src": "Investing.com",
+   "url": "https://ph.investing.com/news/stock-market-news/nippon-paint-q3-2026-slides-record-profit-on-broad-growth-93CH-2691870",
+   "top": true
+  },
   {
    "id": "2026-11-10-tr-insaat-maliyet-eylul",
    "date": "2026-11-10",
@@ -64,6 +94,21 @@
    "top": true
   },
   {
+   "id": "2026-11-10-astorg-igm-jiuri",
+   "date": "2026-11-10",
+   "cat": "ham",
+   "geo": "dunya",
+   "h": "Fotobaşlatıcı üreticisi IGM Resins Çinli Jiuri'ye satılıyor",
+   "h_en": "Photoinitiator maker IGM Resins to be sold to China's Jiuri",
+   "t": "Özel sermaye şirketi Astorg, UV kürlenen sistemler için fotobaşlatıcı, oligomer ve monomer üreten IGM Resins'i Tianjin Jiuri New Materials liderliğindeki konsorsiyuma satmak için anlaştı. İşlemin 2027'nin ilk çeyreğinde, düzenleyici onaylara bağlı olarak tamamlanması bekleniyor.",
+   "t_en": "Private equity firm Astorg agreed to sell IGM Resins, which makes photoinitiators, oligomers and monomers for UV-curing systems, to a consortium led by Tianjin Jiuri New Materials. The transaction is expected to close in the first quarter of 2027, subject to regulatory approvals.",
+   "imp": "UV kürlenen boya ve mürekkeplerin temel hammaddelerinde Çinli üreticilerin payı artıyor; tedarikçi yapısındaki bu değişim alıcıların sözleşme ve tedarik çeşitlendirmesi planlarını etkileyebilir.",
+   "imp_en": "Chinese producers are increasing their share in key raw materials for UV-cured coatings and inks; this shift in supplier structure may affect buyers' contract and supply diversification plans.",
+   "src": "European Coatings",
+   "url": "https://www.european-coatings.com/news/markets-companies/astorg-to-sell-igm-resins-to-chinese-photoinitiator-manufacturer-jiuri/",
+   "top": false
+  },
+  {
    "id": "2026-11-10-azelis-susonity-dach",
    "date": "2026-11-10",
    "cat": "ham",
@@ -91,7 +136,7 @@
    "imp_en": "It signals that acquisition-led growth will continue in protective coatings and construction chemicals.",
    "src": "SEC (RPM International)",
    "url": "https://www.sec.gov/Archives/edgar/data/0000110621/000119312526452970/d152872dex991.htm",
-   "top": true
+   "top": false
   },
   {
    "id": "2026-11-09-kearney-tedarik-maliyet",
@@ -134,7 +179,7 @@
    "imp_en": "as one of the world's largest coatings groups takes shape, the industrial coatings supply structure in Europe will be reshaped",
    "src": "AkzoNobel (SEC)",
    "url": "https://www.sec.gov/Archives/edgar/data/0000003124/000095010326017091/dp256483_ex9901.htm",
-   "top": true,
+   "top": false,
    "h": "AB'den AkzoNobel–Axalta birleşmesine şartlı onay",
    "h_en": "EU gives conditional approval to AkzoNobel–Axalta merger"
   },
